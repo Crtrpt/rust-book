@@ -1,3 +1,9 @@
+# 基于<- https://github.com/rust-lang/mdBook
+
+# 目标-> 搞定 rust 编程语言
+
+---
+
 # The Rust Programming Language
 
 ![Build Status](https://github.com/rust-lang/book/workflows/CI/badge.svg)
@@ -26,7 +32,7 @@ See the [releases] to download just the code of all the code listings that appea
 Building the book requires [mdBook], ideally the same version that
 rust-lang/rust uses in [this file][rust-mdbook]. To get it:
 
-[mdBook]: https://github.com/rust-lang-nursery/mdBook
+[mdbook]: https://github.com/rust-lang-nursery/mdBook
 [rust-mdbook]: https://github.com/rust-lang/rust/blob/master/src/tools/rustbook/Cargo.toml
 
 ```bash
@@ -45,6 +51,7 @@ The output will be in the `book` subdirectory. To check it out, open it in
 your web browser.
 
 _Firefox:_
+
 ```bash
 $ firefox book/index.html                       # Linux
 $ open -a "Firefox" book/index.html             # OS X
@@ -53,6 +60,7 @@ $ start firefox.exe .\book\index.html           # Windows (Cmd)
 ```
 
 _Chrome:_
+
 ```bash
 $ google-chrome book/index.html                 # Linux
 $ open -a "Google Chrome" book/index.html       # OS X
@@ -92,7 +100,7 @@ efforts that are currently in progress. Open a new issue to start working on
 a new language! We're waiting on [mdbook support] for multiple languages
 before we merge any in, but feel free to start!
 
-[Translations]: https://github.com/rust-lang/book/issues?q=is%3Aopen+is%3Aissue+label%3ATranslations
+[translations]: https://github.com/rust-lang/book/issues?q=is%3Aopen+is%3Aissue+label%3ATranslations
 [mdbook support]: https://github.com/rust-lang-nursery/mdBook/issues/5
 
 ## Spellchecking
