@@ -1,4 +1,4 @@
-## Installation
+## 安装
 
 The first step is to install Rust. We’ll download Rust through `rustup`, a
 command line tool for managing Rust versions and associated tools. You’ll need
@@ -39,7 +39,7 @@ for your password. If the install is successful, the following line will appear:
 Rust is installed now. Great!
 ```
 
-You will also need a *linker*, which is a program that Rust uses to join its
+You will also need a _linker_, which is a program that Rust uses to join its
 compiled outputs into one file. It is likely you already have one. If you get
 linker errors, you should install a C compiler, which will typically include a
 linker. A C compiler is also useful because some common Rust packages depend on
@@ -65,12 +65,12 @@ Visual Studio 2013 or later.
 To acquire the build tools, you’ll need to install [Visual Studio
 2022][visualstudio]. When asked which workloads to install, include:
 
-* “Desktop Development with C++”
-* The Windows 10 or 11 SDK
-* The English language pack component, along with any other language pack of
+- “Desktop Development with C++”
+- The Windows 10 or 11 SDK
+- The English language pack component, along with any other language pack of
   your choosing
 
-The rest of this book uses commands that work in both *cmd.exe* and PowerShell.
+The rest of this book uses commands that work in both _cmd.exe_ and PowerShell.
 If there are specific differences, we’ll explain which to use.
 
 ### Troubleshooting

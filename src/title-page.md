@@ -1,6 +1,6 @@
-# The Rust Programming Language
+# rust 编程语言
 
-*by Steve Klabnik and Carol Nichols, with contributions from the Rust Community*
+_by Steve Klabnik and Carol Nichols, with contributions from the Rust Community_
 
 This version of the text assumes you’re using Rust 1.65 (released 2022-11-03)
 or later. See the [“Installation” section of Chapter 1][install]<!-- ignore -->
