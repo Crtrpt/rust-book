@@ -1,4 +1,4 @@
-# 基于<- https://github.com/rust-lang/mdBook
+# 基于<- https://github.com/rust-lang/book
 
 # 目标-> 搞定 rust 编程语言
 
